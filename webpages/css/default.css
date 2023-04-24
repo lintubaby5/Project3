@@ -1,0 +1,197 @@
+body{
+    min-width: 1300px;
+    margin:0;
+    background:whitesmoke;
+}
+header{
+    position:fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    /* width:100%; */
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    transition:0.6s;
+    padding:30px 0px;
+    z-index: 100000;
+    /* padding: 40px 100px; */
+    padding: 50px 5%;
+    background:rgb(252, 251, 244);
+}
+.title{
+    height:50px;
+    width:350px;
+    text-align: justify;
+    font-family: 'Vazirmatn', sans-serif;
+    font-size: 25px;
+    letter-spacing:1px;
+    margin-top: 40;
+}
+
+header ul{
+    position:relative;
+    display:flex;
+    justify-content: right;
+    margin-right: 900px;
+    align-items: center;
+}
+header ul li{
+    position:relative;
+    list-style: none;
+    /* margin-right: 60px; */
+    margin-right: 10%;
+    flex-shrink: 0;
+}
+header ul li a{
+    position:relative;
+    margin:0 15px;
+    text-decoration:none;
+    color:#2D2E2A;
+    letter-spacing: 2px;
+    transition:0.6s;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+header ul li a:hover{
+    border-bottom: 1px solid #000;
+    padding-bottom: 3px;
+}
+
+header ul li .homepage,
+header ul li .comparison,
+header ul li .about{
+    color:#979688;
+    border-color: none;
+    font-family: 'Vazirmatn', sans-serif;
+    border-bottom: 1px solid #000;
+    padding-bottom: 3px; 
+}
+
+#homepage{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Vazirmatn', sans-serif;
+}
+
+#homepage h1{
+    margin-top: 90px;
+}
+
+#homepage .col-md-12,
+#homepage .col-md-6{
+    margin-top: 40px;
+}
+
+#homepage .myDiv{
+    align-items: center;
+    position: relative;
+}
+
+/*comparision*/
+#comparison{
+    margin:0;
+    background-color:white;
+    font-family: 'Vazirmatn', sans-serif;
+}
+
+#comparison main{
+    margin-top: 30px;
+}
+#comparison main .row{
+    margin-top:40px;
+}
+
+#comparison .subtitle h1{
+    text-align: center;
+    margin-top: 120px;
+    font-size: 40px;
+
+}
+
+/*about*/
+#about{
+    margin:0;
+    background-color:whitesmoke;
+    font-family: 'Vazirmatn', sans-serif;
+}
+#about .subtitle h1{
+    text-align: center;
+    margin-top: 120px;
+    font-size: 40px;
+
+}
+/*left*/
+.row-odd{
+    margin-top: 50px;
+    flex-direction: column-reverse;
+    align-items: center;
+   /* margin-left: 225px;*/
+}
+
+.row-odd p{
+    width: 550px;
+}
+
+/* more on movies*/
+.hahaha h2{
+    margin-top: 120px;
+    text-align: center;
+}
+
+.lalala h2{
+    margin-top: 100px;
+    text-align: center;
+}
+
+/*right*/
+.about-row{
+    margin-top: 50px;
+    padding: 10px 0 10px 0;
+    margin-bottom: 20px;
+}
+
+.image-box {
+    justify-content: center;
+    text-align: center;
+}
+
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about .row about-row row-odd{
+  background-color: whitesmoke;
+}
+
+
+/*footer*/
+.footer_box{
+    width: 100%;
+    padding: 10px 0;
+    background: rgb(252, 251, 244);
+    color: #333;
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Vazirmatn', sans-serif;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background:rgb(252, 251, 244);
+    color: #333;
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Vazirmatn', sans-serif;
+    align-items: center;
+  }
